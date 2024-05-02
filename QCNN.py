@@ -8,8 +8,8 @@ from qiskit import QuantumCircuit
 from qiskit.circuit import ParameterVector
 from qiskit.circuit.library import ZFeatureMap
 from qiskit.quantum_info import SparsePauliOp
-from qiskit_algorithms.optimizers import COBYLA
-from qiskit_algorithms.utils import algorithm_globals
+from optimizers import COBYLA
+from qiskit_algorithms_utils import algorithm_globals
 from qiskit_machine_learning.algorithms.classifiers import NeuralNetworkClassifier
 from qiskit_machine_learning.neural_networks import EstimatorQNN
 from sklearn.model_selection import train_test_split
